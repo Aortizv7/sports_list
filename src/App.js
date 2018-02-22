@@ -56,8 +56,8 @@ export default class App extends Component {
         <section className="small_section">
           <Typist>
           <h2 className='title'>
-            Click on your least favorite sports below to delete them until you
-            have three left
+            Click on your least favorite sports below, to delete them until you
+            have three left...
           </h2>
           </Typist>
         </section>
