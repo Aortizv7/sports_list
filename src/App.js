@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import data from "./data";
-import Typist from 'react-typist';
-
+import Typist from "react-typist";
 
 export default class App extends Component {
   constructor() {
@@ -10,12 +9,10 @@ export default class App extends Component {
     this.state = {
       originalList: data,
       modifiedList: data,
-      message: "",
+      message: ""
     };
     this.handleReset = this.handleReset.bind(this);
   }
-
-
 
   handleDeletion(element) {
     let newItem = element;
@@ -53,21 +50,23 @@ export default class App extends Component {
       <main className="main_bod">
         <nav className="nav_bar" />
         <div className="wrapper">
-        <section className="small_section">
-          <Typist>
-          <h2 className='title'>
-            Click on your least favorite sports below, to delete them until you
-            have three left...
-          </h2>
-          </Typist>
-        </section>
-        <section className="sports_container">
-          <div className="message">{this.state.message}</div>
-          {sport}
-        </section>
-        <section className="small_section">
-          <button onClick={this.handleReset} className='reset_btn'>Reset</button>
-        </section>
+          <section className="small_section">
+            <Typist>
+              <h2 className="title">
+                Click on your least favorite sports below, to delete them until
+                you have three left...
+              </h2>
+            </Typist>
+          </section>
+          <section className="sports_container">
+            <div className="message">{this.state.message}</div>
+            {sport}
+          </section>
+          <section className="small_section">
+            <button onClick={this.handleReset} className="reset_btn">
+              Reset
+            </button>
+          </section>
         </div>
         <footer className="footer" />
       </main>
