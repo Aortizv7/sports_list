@@ -47,8 +47,6 @@
   width: 200px;
   height: 200px;
   margin: 20px;
-  /* border: 1px solid black; */
-  /* background: #eaf0ce; */
   background:url('./Assets/sports.gif');
   display: flex;
   justify-content: center;
