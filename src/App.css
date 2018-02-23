@@ -116,12 +116,13 @@
   }
   .message {
     font-size: 20px;
+    padding-left:20px;
   }
   .individual_sport {
     width: 150px;
     height: 150px;
     font-size: 20px;
-    margin: 10px;
+    margin: 15px;
   }
   .reset_btn {
     width: 200px;
