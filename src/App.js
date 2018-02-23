@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
 import data from "./data";
-import Typist from "react-typist";
 
 export default class App extends Component {
   constructor() {
@@ -48,15 +47,12 @@ export default class App extends Component {
     });
     return (
       <main className="main_bod">
-        <nav className="nav_bar" />
         <div className="wrapper">
           <section className="small_section">
-            <Typist>
               <h2 className="title">
                 Click on your least favorite sports below, to delete them until
                 you have three left...
               </h2>
-            </Typist>
           </section>
           <section className="sports_container">
             <div className="message">{this.state.message}</div>
@@ -68,7 +64,6 @@ export default class App extends Component {
             </button>
           </section>
         </div>
-        <footer className="footer" />
       </main>
     );
   }
