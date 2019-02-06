@@ -36,6 +36,7 @@
   justify-content: center;
   align-items: center;
   font-family: "permanent marker";
+  overflow: scroll;
 }
 
 .message {
@@ -113,6 +114,7 @@
   .sports_container {
     width: 90%;
     height: 500px;
+    overflow: scroll;
   }
   .message {
     font-size: 20px;

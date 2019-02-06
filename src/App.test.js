@@ -1,23 +1,6 @@
-// THESE IMPORTATIONS ARE TO TEST THE APP COMPONENT //
-// import React from 'react';
-// import { configure } from 'enzyme'; 
-// import Adapter from 'enzyme-adapter-react-16';
-// import { shallow, mount, render } from 'enzyme'; 
-// configure({ adapter: new Adapter() });
-
-// import renderer from 'react-test-renderer';
-// import App from './App.js';
-
 
 // THIS CONSTANT IS TO TEST THE DATA //
 const functions = require("./functions.js");
-
-
-
-// describe (`Testing the App Component`,()=>{
-//   test()
-// })
-
 
 
 

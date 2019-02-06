@@ -2,7 +2,7 @@
 
 1. Clone the repository from github here: https://github.com/Aortizv7/sports_list.git
 
-2. Open your terminal/code editor terminal and run git clone +url
+2. Open your terminal/code editor terminal and run < git clone +url >
    _Example_
    git clone https://github.com/Aortizv7/sports_list.git
 
